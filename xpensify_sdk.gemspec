@@ -17,9 +17,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.license       = 'MIT'
 
+  spec.add_dependency 'http', '~> 5.0'
+
   spec.add_development_dependency 'bundler', '~> 2.2'
   spec.add_development_dependency 'rake', '~> 13.0'
-  spec.metadata = {
-    'rubygems_mfa_required' => 'true'
-  }
 end
