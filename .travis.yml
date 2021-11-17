@@ -1,7 +1,17 @@
----
 sudo: false
 language: ruby
 cache: bundler
 rvm:
   - 2.6.3
-before_install: gem install bundler -v 1.17.2
+
+before_install: gem install bundler -v 2.2.31
+
+install:
+  - bundle install --retry=3
+
+script:
+  - bundle exec rspec
+  - bundle exec rubocop -R lib spec --format simple
+
+os:
+  - linux

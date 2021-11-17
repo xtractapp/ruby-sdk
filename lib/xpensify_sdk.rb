@@ -1,6 +1,4 @@
-require "xpensify_sdk/version"
+require 'xpensify_sdk/version'
 
-module XpensifySdk
-  class Error < StandardError; end
-  # Your code goes here...
+module XpensifySDK
 end
