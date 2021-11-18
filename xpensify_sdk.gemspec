@@ -4,7 +4,7 @@ require 'xpensify_sdk/version'
 require 'date'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'xpensify_sdk'
+  spec.name          = 'xpensify-sdk'
   spec.version       = XpensifySDK::VERSION
   spec.authors       = ['Alejandro Bezdjian']
   spec.email         = ['alejandro.bezdjian@klarna.com']

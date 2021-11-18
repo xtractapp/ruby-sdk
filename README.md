@@ -9,7 +9,7 @@ You can read the API docs directly from [here](https://xpensifyapi.docs.apiary.i
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'xpensify_sdk'
+gem 'xpensify-sdk'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ $> bundle
 Or install it yourself as:
 
 ```bash
-$> gem install xpensify_sdk
+$> gem install xpensify-sdk
 ```
 
 ## Usage
