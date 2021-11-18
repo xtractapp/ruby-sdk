@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    xpensify_sdk (0.0.1)
+    xpensify-sdk (0.0.2)
       http (~> 5.0)
 
 GEM
@@ -91,7 +91,7 @@ DEPENDENCIES
   rubocop-performance (~> 1.12)
   rubocop-rspec (~> 2.6)
   simplecov (~> 0.21)
-  xpensify_sdk!
+  xpensify-sdk!
 
 BUNDLED WITH
    2.2.31

@@ -20,10 +20,18 @@ module XpensifySDK
         )
       end
 
+      def update_invoice(id, params, api_key)
+        HTTP.put(
+          "#{API_URL}/invoices/#{id}",
+          body: params.to_json,
+          headers: build_headers(api_key)
+        )
+      end
+
       private
 
       def build_headers(api_key)
-        { 'Authorization' => api_key }
+        { 'Authorization' => api_key, 'Content-type' => 'application/json' }
       end
     end
   end

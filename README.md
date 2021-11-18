@@ -86,6 +86,13 @@ puts invoice.id
 puts invoice.products
 ```
 
+### Update an invoice
+
+```ruby
+client = XpensifySDK::Client.new
+client.update_invoice(ID, { accounted: 'completed' }) #=> :ok
+```
+
 ### Errors
 
 You can check [here](https://github.com/Xpensify/ruby-sdk/blob/master/lib/xpensify_sdk/error.rb) all the error classes that the library raises.
