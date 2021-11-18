@@ -1,5 +1,9 @@
 # XpensifySDK
 
+This gem is the official library provided by Xpensify to interact with our API.
+
+You can read the API docs directly from [here](https://xpensifyapi.docs.apiary.io).
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -68,8 +72,8 @@ number
 electronic_authorization_id
 created_at_from
 created_at_to
-accounted
-imputed
+accounted ('pending', 'in_progress', 'completed', 'with_errors')
+imputed (true, false)
 ```
 
 ### Get an invoice
