@@ -178,6 +178,13 @@ describe XpensifySDK::Invoices::RequestBuilder do
     end
   end
 
+  describe '.with_market_rate' do
+    it 'sets the correct imputed value from params' do
+      builder.with_market_rate('usd', 'uyu')
+      expect(builder.with_market_rate).to eq('usd-uyu')
+    end
+  end
+
   describe '.call' do
     it 'returns an instance of Result' do
       expect(builder.call.class).to eq(XpensifySDK::Invoices::Result)

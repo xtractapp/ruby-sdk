@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    xpensify-sdk (0.0.2)
+    xpensify-sdk (0.0.3)
       http (~> 5.0)
 
 GEM
@@ -81,6 +81,7 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   bundler (~> 2.2)

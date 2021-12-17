@@ -34,6 +34,13 @@ module XpensifySDK
         end
       end
 
+      def with_market_rate(from = nil, to = nil)
+        return @options[:with_market_rate] if from.nil? && to.nil?
+
+        @options[:with_market_rate] = "#{from}-#{to}"
+        self
+      end
+
       def call
         XpensifySDK::Invoices::Result.new(@options, @api_key, HTTPClient)
       end
