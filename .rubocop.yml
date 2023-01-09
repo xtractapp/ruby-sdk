@@ -24,4 +24,4 @@ Metrics/BlockLength:
 
 RSpec/FilePath:
   Exclude:
-    - spec/xpensify_sdk/version_spec.rb
+    - spec/xtract_sdk/version_spec.rb

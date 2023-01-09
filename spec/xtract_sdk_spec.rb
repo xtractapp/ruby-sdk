@@ -1,4 +1,4 @@
-describe XpensifySDK do
+describe XtractSDK do
   describe '.configure' do
     let(:api_key) { 'test' }
 

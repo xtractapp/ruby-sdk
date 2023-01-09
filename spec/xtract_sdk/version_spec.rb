@@ -1,4 +1,4 @@
-describe XpensifySDK do
+describe XtractSDK do
   let(:version) { described_class::VERSION }
 
   it 'is the correct version' do

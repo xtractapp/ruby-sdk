@@ -1,6 +1,6 @@
 require_relative 'result'
 
-module XpensifySDK
+module XtractSDK
   module Invoices
     class RequestBuilder
       VALID_PARAMS = %i[
@@ -42,7 +42,7 @@ module XpensifySDK
       end
 
       def call
-        XpensifySDK::Invoices::Result.new(@options, @api_key, HTTPClient)
+        XtractSDK::Invoices::Result.new(@options, @api_key, HTTPClient)
       end
     end
   end

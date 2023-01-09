@@ -1,16 +1,16 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'xpensify_sdk/version'
+require 'xtract_sdk/version'
 require 'date'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'xpensify-sdk'
-  spec.version       = XpensifySDK::VERSION
+  spec.name          = 'xtract-sdk'
+  spec.version       = XtractSDK::VERSION
   spec.authors       = ['Alejandro Bezdjian']
   spec.email         = ['alejandro.bezdjian@klarna.com']
-  spec.summary       = "SDK to connect with Xpensify's API"
-  spec.description   = "SDK to connect with Xpensify's API"
-  spec.homepage      = 'https://github.com/Xpensify/ruby-sdk'
+  spec.summary       = "SDK to connect with Xtract's API"
+  spec.description   = "SDK to connect with Xtract's API"
+  spec.homepage      = 'https://github.com/xtractapp/ruby-sdk'
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec)/}) }
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec)/})

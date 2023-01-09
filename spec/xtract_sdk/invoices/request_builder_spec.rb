@@ -1,4 +1,4 @@
-describe XpensifySDK::Invoices::RequestBuilder do
+describe XtractSDK::Invoices::RequestBuilder do
   subject(:builder) { described_class.new(nil, params) }
 
   let(:params) { {} }
@@ -187,7 +187,7 @@ describe XpensifySDK::Invoices::RequestBuilder do
 
   describe '.call' do
     it 'returns an instance of Result' do
-      expect(builder.call.class).to eq(XpensifySDK::Invoices::Result)
+      expect(builder.call.class).to eq(XtractSDK::Invoices::Result)
     end
   end
 end

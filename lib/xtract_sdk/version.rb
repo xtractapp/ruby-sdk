@@ -1,3 +1,3 @@
-module XpensifySDK
+module XtractSDK
   VERSION = '0.0.3'.freeze
 end

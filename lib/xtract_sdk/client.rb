@@ -1,13 +1,13 @@
 require_relative 'invoices/request_builder'
 
-module XpensifySDK
+module XtractSDK
   class Client
     def initialize(api_key: nil)
-      @api_key = api_key || XpensifySDK.config[:api_key]
+      @api_key = api_key || XtractSDK.config[:api_key]
     end
 
     def invoices(params = {})
-      XpensifySDK::Invoices::RequestBuilder.new(@api_key, params)
+      XtractSDK::Invoices::RequestBuilder.new(@api_key, params)
     end
 
     def invoice(id)

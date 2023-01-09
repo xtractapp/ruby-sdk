@@ -1,4 +1,4 @@
-describe XpensifySDK::Invoices::Result do
+describe XtractSDK::Invoices::Result do
   subject(:result) { described_class.new(options, api_key, client) }
 
   let(:options) { {} }

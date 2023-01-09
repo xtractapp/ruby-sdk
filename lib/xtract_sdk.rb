@@ -1,9 +1,9 @@
-require 'xpensify_sdk/error'
-require 'xpensify_sdk/client'
-require 'xpensify_sdk/http_client'
-require 'xpensify_sdk/version'
+require 'xtract_sdk/error'
+require 'xtract_sdk/client'
+require 'xtract_sdk/http_client'
+require 'xtract_sdk/version'
 
-module XpensifySDK
+module XtractSDK
   @config = {
     api_key: nil
   }

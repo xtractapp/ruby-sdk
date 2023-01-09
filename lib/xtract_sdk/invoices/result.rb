@@ -1,6 +1,6 @@
 require 'ostruct'
 
-module XpensifySDK
+module XtractSDK
   module Invoices
     class Result
       include Enumerable

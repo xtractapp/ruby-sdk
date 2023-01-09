@@ -1,4 +1,4 @@
-module XpensifySDK
+module XtractSDK
   module Error
     module_function
 

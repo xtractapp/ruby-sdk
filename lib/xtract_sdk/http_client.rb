@@ -1,8 +1,8 @@
 require 'http'
 
-module XpensifySDK
+module XtractSDK
   class HTTPClient
-    API_URL = 'https://api.xpensify.app/api/v1'.freeze
+    API_URL = 'https://api.xtract.app/api/v1'.freeze
 
     class << self
       def invoices(api_key, params)

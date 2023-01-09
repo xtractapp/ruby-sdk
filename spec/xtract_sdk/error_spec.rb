@@ -1,4 +1,4 @@
-describe XpensifySDK::Error do
+describe XtractSDK::Error do
   describe '.raise_from_code!' do
     subject(:result) { described_class.raise_from_code!(code) }
 
@@ -6,7 +6,7 @@ describe XpensifySDK::Error do
       let(:code) { 404 }
 
       it 'throws an error' do
-        expect { result }.to raise_error(XpensifySDK::Error::NotFound)
+        expect { result }.to raise_error(XtractSDK::Error::NotFound)
       end
     end
 
